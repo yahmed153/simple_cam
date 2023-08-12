@@ -1,0 +1,7 @@
+[wrap-git]
+url=https://github.com/libcamera-org/libcamera.git
+revision=v0.1.0
+depth=1
+
+[provide]
+libcamera_public = libcamera_public_dep
