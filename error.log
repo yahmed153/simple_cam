@@ -1,0 +1,91 @@
+yahmed@raspberrypi:~/src/simple_cam $ LIBCAMERA_LOG_LEVELS=0 ./build/src/simple_cam
+[85:54:48.197180311] [1091862]  WARN IPAManager ipa_manager.cpp:114 Public key not valid
+[85:54:48.199584696] [1091862]  INFO IPAManager ipa_manager.cpp:143 libcamera is not installed. Adding '/home/yahmed/src/simple_cam/build/subprojects/libcamera/src/ipa' to the IPA search path
+[85:54:48.203943007] [1091862] DEBUG IPAModule ipa_module.cpp:334 ipa_rkisp1.so: IPA module /home/yahmed/src/simple_cam/build/subprojects/libcamera/src/ipa/rkisp1/ipa_rkisp1.so is signed
+[85:54:48.204610056] [1091862] DEBUG IPAManager ipa_manager.cpp:245 Loaded IPA module '/home/yahmed/src/simple_cam/build/subprojects/libcamera/src/ipa/rkisp1/ipa_rkisp1.so'
+[85:54:48.207713823] [1091862] DEBUG IPAModule ipa_module.cpp:334 ipa_rpi_vc4.so: IPA module /home/yahmed/src/simple_cam/build/subprojects/libcamera/src/ipa/rpi/vc4/ipa_rpi_vc4.so is signed
+[85:54:48.208305336] [1091862] DEBUG IPAManager ipa_manager.cpp:245 Loaded IPA module '/home/yahmed/src/simple_cam/build/subprojects/libcamera/src/ipa/rpi/vc4/ipa_rpi_vc4.so'
+[85:54:48.209216772] [1091862]  INFO Camera camera_manager.cpp:284 libcamera v0.1.0
+[85:54:48.210200615] [1091864] DEBUG Camera camera_manager.cpp:69 Starting camera manager
+[85:54:48.212449131] [1091864] DEBUG DeviceEnumerator device_enumerator.cpp:224 New media device "bcm2835-codec" created from /dev/media4
+[85:54:48.214520500] [1091864] DEBUG DeviceEnumerator device_enumerator.cpp:252 Added device /dev/media4: bcm2835-codec
+[85:54:48.215437214] [1091864] DEBUG DeviceEnumerator device_enumerator.cpp:224 New media device "bcm2835-isp" created from /dev/media2
+[85:54:48.216360279] [1091864] DEBUG DeviceEnumerator device_enumerator.cpp:252 Added device /dev/media2: bcm2835-isp
+[85:54:48.216858552] [1091864] DEBUG DeviceEnumerator device_enumerator.cpp:224 New media device "rpivid" created from /dev/media0
+[85:54:48.217368751] [1091864] DEBUG DeviceEnumerator device_enumerator.cpp:252 Added device /dev/media0: rpivid
+[85:54:48.217811025] [1091864] DEBUG DeviceEnumerator device_enumerator.cpp:224 New media device "unicam" created from /dev/media3
+[85:54:48.218666054] [1091864] DEBUG DeviceEnumerator device_enumerator.cpp:252 Added device /dev/media3: unicam
+[85:54:48.219207308] [1091864] DEBUG DeviceEnumerator device_enumerator.cpp:224 New media device "bcm2835-isp" created from /dev/media1
+[85:54:48.220050744] [1091864] DEBUG DeviceEnumerator device_enumerator.cpp:252 Added device /dev/media1: bcm2835-isp
+[85:54:48.220267520] [1091864] DEBUG Camera camera_manager.cpp:113 Found registered pipeline handler 'PipelineHandlerISI'
+[85:54:48.221200845] [1091864] DEBUG Camera camera_manager.cpp:113 Found registered pipeline handler 'PipelineHandlerRkISP1'
+[85:54:48.221894357] [1091864] DEBUG Camera camera_manager.cpp:113 Found registered pipeline handler 'PipelineHandlerVc4'
+[85:54:48.222155873] [1091864] DEBUG DeviceEnumerator device_enumerator.cpp:312 Successful match for media device "unicam"
+[85:54:48.222371815] [1091864] DEBUG DeviceEnumerator device_enumerator.cpp:312 Successful match for media device "bcm2835-isp"
+[85:54:48.224151835] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Exposure (0x00980911)
+[85:54:48.225225473] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Horizontal Flip (0x00980914)
+[85:54:48.225572322] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Vertical Flip (0x00980915)
+[85:54:48.225780987] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Wide Dynamic Range (0x009a0915)
+[85:54:48.225965133] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Camera Orientation (0x009a0922)
+[85:54:48.226441462] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Camera Sensor Rotation (0x009a0923)
+[85:54:48.226682219] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Vertical Blanking (0x009e0901)
+[85:54:48.226853662] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Horizontal Blanking (0x009e0902)
+[85:54:48.227050123] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Analogue Gain (0x009e0903)
+[85:54:48.227248047] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Red Pixel Value (0x009e0904)
+[85:54:48.227426286] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Green (Red) Pixel Value (0x009e0905)
+[85:54:48.227608303] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Blue Pixel Value (0x009e0906)
+[85:54:48.227784079] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Green (Blue) Pixel Value (0x009e0907)
+[85:54:48.227984762] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Notify Gains (0x009e0909)
+[85:54:48.228291389] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Link Frequency (0x009f0901)
+[85:54:48.228515868] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Pixel Rate (0x009f0902)
+[85:54:48.228698941] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Test Pattern (0x009f0903)
+[85:54:48.228988882] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'imx708_wide': Control: Digital Gain (0x009f0905)
+[85:54:48.241741522] [1091864]  WARN CameraSensorProperties camera_sensor_properties.cpp:249 No static properties available for 'imx708_wide'
+[85:54:48.241909835] [1091864]  WARN CameraSensorProperties camera_sensor_properties.cpp:251 Please consider updating the camera sensor properties database
+[85:54:48.328380837] [1091864] DEBUG V4L2 v4l2_device.cpp:636 'dw9807 10-000c': Control: Focus, Absolute (0x009a090a)
+[85:54:48.332368373] [1091864] DEBUG IPAManager ipa_manager.cpp:316 IPA module /home/yahmed/src/simple_cam/build/subprojects/libcamera/src/ipa/rpi/vc4/ipa_rpi_vc4.so signature is not valid
+[85:54:48.332687148] [1091864] DEBUG IPAProxy raspberrypi_ipa_proxy.cpp:45 initializing raspberrypi proxy: loading IPA from /home/yahmed/src/simple_cam/build/subprojects/libcamera/src/ipa/rpi/vc4/ipa_rpi_vc4.so
+[85:54:48.333823693] [1091864]  INFO IPAProxy ipa_proxy.cpp:198 libcamera is not installed. Loading proxy workers from '/home/yahmed/src/simple_cam/build/subprojects/libcamera/src/libcamera/proxy/worker'
+[85:54:48.337160736] [1091864]  INFO IPAProxy ipa_proxy.cpp:130 libcamera is not installed. Loading IPA configuration from '/home/yahmed/src/simple_cam/subprojects/libcamera/src/ipa/rpi/vc4/data'
+[85:54:48.338795498] [1091864] DEBUG Timer timer.cpp:95 Starting timer 0x7f9d376660: deadline 85:54:50.338720110
+[85:54:48.339114069] [1091864] DEBUG Event event_dispatcher_poll.cpp:216 next timer 0x7f9d376660 expires in 1.999640096
+[85:54:48.413230095] [1091864] DEBUG RPiDelayedControls delayed_controls.cpp:103 Set a delay of 3 and priority write flag 0 for Horizontal Blanking
+[85:54:48.413501962] [1091864] DEBUG RPiDelayedControls delayed_controls.cpp:103 Set a delay of 3 and priority write flag 1 for Vertical Blanking
+[85:54:48.413607961] [1091864] DEBUG RPiDelayedControls delayed_controls.cpp:103 Set a delay of 2 and priority write flag 0 for Exposure
+[85:54:48.413708331] [1091864] DEBUG RPiDelayedControls delayed_controls.cpp:103 Set a delay of 2 and priority write flag 0 for Analogue Gain
+[85:54:48.416102216] [1091864] DEBUG V4L2 v4l2_videodevice.cpp:632 /dev/video0[13:cap]: Opened device platform:fe801000.csi: unicam: unicam
+[85:54:48.417565332] [1091864] DEBUG V4L2 v4l2_videodevice.cpp:632 /dev/video1[14:cap]: Opened device platform:fe801000.csi: unicam: unicam
+[85:54:48.417877940] [1091864] DEBUG V4L2 v4l2_device.cpp:636 /dev/video20[15:cap]: Control: Red Balance (0x0098090e)
+[85:54:48.418183807] [1091864] DEBUG V4L2 v4l2_device.cpp:636 /dev/video20[15:cap]: Control: Blue Balance (0x0098090f)
+[85:54:48.418398527] [1091864] DEBUG V4L2 v4l2_device.cpp:636 /dev/video20[15:cap]: Control: Colour Correction Matrix (0x009819e1)
+[85:54:48.418567933] [1091864] DEBUG V4L2 v4l2_device.cpp:636 /dev/video20[15:cap]: Control: Lens Shading (0x009819e2)
+[85:54:48.418721450] [1091864] DEBUG V4L2 v4l2_device.cpp:636 /dev/video20[15:cap]: Control: Black Level (0x009819e3)
+[85:54:48.418882060] [1091864] DEBUG V4L2 v4l2_device.cpp:636 /dev/video20[15:cap]: Control: Green Equalisation (0x009819e4)
+[85:54:48.419036892] [1091864] DEBUG V4L2 v4l2_device.cpp:636 /dev/video20[15:cap]: Control: Gamma (0x009819e5)
+[85:54:48.419188205] [1091864] DEBUG V4L2 v4l2_device.cpp:636 /dev/video20[15:cap]: Control: Denoise (0x009819e6)
+[85:54:48.419340870] [1091864] DEBUG V4L2 v4l2_device.cpp:636 /dev/video20[15:cap]: Control: Sharpen (0x009819e7)
+[85:54:48.419501499] [1091864] DEBUG V4L2 v4l2_device.cpp:636 /dev/video20[15:cap]: Control: Defective Pixel Correction (0x009819e8)
+[85:54:48.419674497] [1091864] DEBUG V4L2 v4l2_device.cpp:636 /dev/video20[15:cap]: Control: Colour Denoise (0x009819e9)
+[85:54:48.419835625] [1091864] DEBUG V4L2 v4l2_device.cpp:636 /dev/video20[15:cap]: Control: Digital Gain (0x009f0905)
+[85:54:48.420224788] [1091864] DEBUG V4L2 v4l2_videodevice.cpp:632 /dev/video20[15:out]: Opened device platform:bcm2835-isp: bcm2835-isp: bcm2835-isp
+[85:54:48.421126317] [1091864] DEBUG V4L2 v4l2_videodevice.cpp:632 /dev/video21[16:cap]: Opened device platform:bcm2835-isp: bcm2835-isp: bcm2835-isp
+[85:54:48.421556368] [1091864] DEBUG V4L2 v4l2_videodevice.cpp:632 /dev/video22[17:cap]: Opened device platform:bcm2835-isp: bcm2835-isp: bcm2835-isp
+[85:54:48.421927105] [1091864] DEBUG V4L2 v4l2_videodevice.cpp:632 /dev/video23[18:cap]: Opened device platform:bcm2835-isp: bcm2835-isp: bcm2835-isp
+[85:54:48.423153020] [1091864]  INFO RPI vc4.cpp:390 Registered camera /base/soc/i2c0mux/i2c@1/imx708@1a to Unicam device /dev/media3 and ISP device /dev/media2
+[85:54:48.423589331] [1091864] DEBUG Camera camera_manager.cpp:125 Pipeline handler "PipelineHandlerVc4" matched
+[85:54:48.423781829] [1091864] DEBUG RPI vc4.cpp:182 Unable to acquire a Unicam instance
+[85:54:48.423868791] [1091864] DEBUG RPI vc4.cpp:182 Unable to acquire a Unicam instance
+[85:54:48.423990530] [1091864] DEBUG Camera camera_manager.cpp:113 Found registered pipeline handler 'SimplePipelineHandler'
+[85:54:48.424311268] [1091864] DEBUG Camera camera_manager.cpp:113 Found registered pipeline handler 'PipelineHandlerUVC'
+[85:54:48.427587330] [1091862] DEBUG RPI pipeline_base.cpp:341 Try color space sYCC
+[85:54:48.428259342] [1091862] DEBUG Camera camera.cpp:968 streams configuration: (0) 800x600-NV12
+Default viewfinder configuration is: 800x600-NV12
+[85:54:48.429379869] [1091862] DEBUG RPI pipeline_base.cpp:341 Try color space sYCC
+Validated viewfinder configuration is: 640x480-NV12
+[85:54:48.429748310] [1091862] ERROR Camera camera.cpp:546 Camera in Available state trying configure() requiring state between Acquired and Configured
+[85:54:48.430100029] [1091862] ERROR Camera camera.cpp:525 Camera in Available state trying exportFrameBuffers() requiring state Configured
+Can't allocate buffers
+[85:54:48.430716875] [1091864] ERROR DeviceEnumerator device_enumerator.cpp:166 Removing media device /dev/media2 while still in use
+[85:54:48.430819651] [1091864] ERROR DeviceEnumerator device_enumerator.cpp:166 Removing media device /dev/media3 while still in use
+Bus error
+
